@@ -16,7 +16,7 @@ namespace nflSurvivor.UI
             // Policies
             Routes
                 .IgnoreControllerNamesEntirely()
-                .IgnoreMethodSuffix("Html")
+                .IgnoreMethodSuffix("Html")          
                 .RootAtAssemblyNamespace();
 
             // Match views to action methods by matching
