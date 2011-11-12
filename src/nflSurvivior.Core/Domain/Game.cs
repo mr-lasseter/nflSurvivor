@@ -2,10 +2,10 @@ namespace nflSurvivior.Core.Domain
 {
     public class Game : Entity
     {
-        public Team VisitingTeam { get; set; }
-        public int VisitingTeamScore { get; set; }
+        public virtual  Team VisitingTeam { get; set; }
+        public virtual int VisitingTeamScore { get; set; }
 
-        public Team HomeTeam { get; set; }
-        public int HomeTeamScore { get; set; }
+        public virtual Team HomeTeam { get; set; }
+        public virtual int HomeTeamScore { get; set; }
     }
 }
